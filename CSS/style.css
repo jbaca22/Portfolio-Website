@@ -66,15 +66,8 @@ header nav ul li {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     margin: 100px;
-}
-
-.subheading h2{
-    float: right;
 }
 
 .grid-container {
