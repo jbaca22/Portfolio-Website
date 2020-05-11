@@ -56,7 +56,7 @@ header nav ul li {
     font-size: 1.55vw;
 }
 
-.hero {
+.hero-image {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -66,11 +66,21 @@ header nav ul li {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 100px;
+}
+
+.subheading h2{
+    float: right;
 }
 
 .grid-container {
+    display: flex;
     display: grid;
-    grid-gap: 120px;
+    grid-gap: 10px;
     background-color: #2196F3;
     padding: 10px;
 }
@@ -84,14 +94,40 @@ header nav ul li {
 
   .grid-1 {
       grid-column-start: 1;
-      grid-column-end: 3;
+      grid-column-end: 2;
       grid-row-start: 1;
       grid-row-end: 2;
   }
 
   .grid-2 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 3;
 
   }
+
+  .grid-3 {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 3;
+  }
+
+  .grid-4 {
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 1;
+  }
+
+  .grid-5 {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: auto;
+      grid-row-end: auto;
+  }
+
 
 .contact-info {
     display: flex;
